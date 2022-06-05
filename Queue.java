@@ -8,7 +8,7 @@ public class Queue <T> {
         this.tope = null;
     }
     
-    public boolean pilaVacia() {
+    public boolean colaVacia() {
         return tope == null;
     }
     

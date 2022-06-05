@@ -9,7 +9,7 @@ public class Colas_principal {
         Queue<String> cadenas = new Queue<String>();
         
         //Imprime true si la cola esta vacía o false si es que no
-        System.out.println("\nCola vacía: "+cadenas.pilaVacia());
+        System.out.println("\nCola vacía: "+cadenas.colaVacia());
         
         //Añadiendo elementos de tipo String
         cadenas.crearNodo("Uno");
@@ -24,7 +24,7 @@ public class Colas_principal {
         System.out.println("\nCola inicial:\n"+cadenas);
         
         //True o false si es que esta vacía
-        System.out.println("\nCola vacía: "+cadenas.pilaVacia());
+        System.out.println("\nCola vacía: "+cadenas.colaVacia());
         
         //Imprime el último nodo
         System.out.println("\nPrimer elemento: "+cadenas.primerNodo());
@@ -53,7 +53,7 @@ public class Colas_principal {
         Queue<Double> numeros = new Queue<Double>();
         
         //Imprime true si la cola esta vacía o false si es que no
-        System.out.println("\nCola vacía: "+numeros.pilaVacia());
+        System.out.println("\nCola vacía: "+numeros.colaVacia());
         
         //Añadiendo elementos de tipo Integer
         numeros.crearNodo(1.4);
@@ -68,7 +68,7 @@ public class Colas_principal {
         System.out.println("\nCola inicial:\n"+numeros);
         
         //True o false si es que esta vacía
-        System.out.println("\nCila vacía: "+numeros.pilaVacia());
+        System.out.println("\nCila vacía: "+numeros.colaVacia());
         
         //Imprime el último nodo
         System.out.println("\nÚltimo elemento: "+numeros.primerNodo());

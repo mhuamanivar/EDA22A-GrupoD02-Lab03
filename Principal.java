@@ -1,5 +1,6 @@
-package Pilas;
+package pilas;
 import java.util.Arrays;
+
 
 public class Principal {
     //funcion que calcula maxima altura en comun
@@ -39,3 +40,4 @@ public class Principal {
         System.out.println(a);
     }
 }
+

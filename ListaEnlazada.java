@@ -1,4 +1,4 @@
-public class ListaEnlazada 
+ublic class ListaEnlazada 
 {
     Nodo cabeza;
 
@@ -50,3 +50,4 @@ public class ListaEnlazada
         return false;
     }
 }
+
